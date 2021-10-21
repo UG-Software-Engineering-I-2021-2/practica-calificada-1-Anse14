@@ -1,0 +1,14 @@
+version: '3'
+
+tasks:
+  run:
+    cmds:
+      - mvn clean compile exec:java
+
+  clean:
+    cmds:
+      - mvn clean
+  
+  test:
+    cmds:
+      - mvn test
