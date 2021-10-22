@@ -1,5 +1,7 @@
 version: '3'
 
+dotenv: [".env"]
+
 tasks:
   run:
     cmds:
@@ -12,3 +14,7 @@ tasks:
   test:
     cmds:
       - mvn test
+
+  verify:
+    cmds:
+      - mvn verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=UG-Software-Engineering-I-2021-2_practica-calificada-1-Anse14
