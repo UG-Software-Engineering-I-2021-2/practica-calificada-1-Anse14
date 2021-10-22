@@ -15,4 +15,5 @@ El requerimiento planteado podría ser considerado como valido si no fuera por l
 
 ## Pregunta 3
 
-Para 
+[Enlace de Sonar](https://sonarcloud.io/summary/overall?id=UG-Software-Engineering-I-2021-2_practica-calificada-1-Anse14)
+
